@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    <meta charset="utf-8">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+      </head>
+      <body onload="draw()">
+		  
+			  <canvas id="dropzone" dropzone="copy" ondrop="drop(event);" 
+                  ondragover="allowDrop(event);" 
+                  width="800" height="600">
+			  </canvas>
+		  
+		  
+		  <img id="menino" src="img/menino.jpg" draggable="true"
+			   ondragstart="drag(event)" width="150" height="152">
+		  <img id="menina" src="img/menina.jpg" draggable="true"
+			   ondragstart="drag(event)" width="150" height="150">
+     
+      </body>
+
+
+</html>

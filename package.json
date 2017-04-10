@@ -1,0 +1,12 @@
+{
+  "name": "App",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "Q": "0.0.1",
+    "asar": "^0.13.0",
+    "electron-prebuilt": "^1.4.13",
+    "fs-jetpack": "^0.11.0",
+    "rcedit": "^0.7.0"
+  }
+}
